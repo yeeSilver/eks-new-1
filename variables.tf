@@ -4,7 +4,7 @@
 variable "region" {
   description = "AWS region"
   type        = string
-    default     = "eu-west-3"
+    default     = "ca-central-1"
 }
 
 variable "eks_cluster_name" {
@@ -12,5 +12,5 @@ variable "eks_cluster_name" {
 }
 
 variable "aws_region" {
-  default = "eu-west-3"
+  default = "ca-central-1"
 }
