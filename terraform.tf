@@ -7,7 +7,7 @@ terraform {
     organization = "hyungwook"
     
     workspaces {
-      name = "ye-test-2"
+      name = "dev-eks"
     }
   }
 
